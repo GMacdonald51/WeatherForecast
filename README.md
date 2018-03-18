@@ -17,7 +17,7 @@ I would also have checked that the correct values were displayed in each field (
 
 Although not asked for in requirements, I did include a negative test, as you should always check for bad input data.
 
-Observations
+Observations:
 There are pressure data displayed in the forecast, but since they not mentioned in the requirements I have not tested them. In a real situation I would consult with the BA to see if this is meant to be in the application and, if so, what the requirements are. I would also seek clarification around what is meant by current/most dominant conditions as current conditions can only apply to the first day (which is what I have tested). It looks like the dominant conditions are not summarised correctly.
 
 
